@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "OOO",
+      "OOO",
+      "OOO"
+    ],
+    "key": {
+      "O": {
+        "item": "moretools:bedrock_debris"
+      }
+    },
+    "result": {
+      "item": "minecraft:bedrock",
+      "count": 1
+    }
+  }
