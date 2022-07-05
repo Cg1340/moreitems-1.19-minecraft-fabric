@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CC ",
+      "CS ",
+      " S "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "moretools:amethyst_axe",
+      "count": 1
+    }
+  }

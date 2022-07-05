@@ -1,5 +1,6 @@
-package net.fabricmc.cg1340mod;
+package net.fabricmc.cg1340mod.copper;
 
+import net.fabricmc.cg1340mod.Cg1340mod;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;

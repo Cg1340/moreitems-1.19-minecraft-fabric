@@ -1,6 +1,14 @@
 package net.fabricmc.cg1340mod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.cg1340mod.amethyst.AmethystAxe;
+import net.fabricmc.cg1340mod.amethyst.AmethystTool;
+import net.fabricmc.cg1340mod.bedrock.BedrockDebris;
+import net.fabricmc.cg1340mod.bedrock.BedrockOre;
+import net.fabricmc.cg1340mod.bedrock.BedrockTool;
+import net.fabricmc.cg1340mod.copper.CopperArmor;
+import net.fabricmc.cg1340mod.copper.CopperNugget;
+import net.fabricmc.cg1340mod.copper.CopperTool;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -60,15 +68,19 @@ public class Cg1340mod implements ModInitializer {
 
 
         System.out.println("Thank you playing the MORETOOLS Mod!");
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_sword"), CopperTool.COPPER_SWORD);//铜剑
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_shovel"), CopperTool.COPPER_SHOVEL);//铜锹
+        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_sword"), CopperTool.COPPER_SWORD);  // 铜剑
+        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_shovel"), CopperTool.COPPER_SHOVEL);  // 铜锹
+        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_pickaxe"), CopperTool.COPPER_PICKAXE);  // 铜镐
+        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_axe"), CopperTool.COPPER_AXE);  // 铜斧
+        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_hoe"), CopperTool.COPPER_HOE);  // 铜锄
 
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_pickaxe"), CopperTool.COPPER_PICKAXE);//铜镐
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_axe"), CopperTool.COPPER_AXE);//铜斧
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_hoe"), CopperTool.COPPER_HOE);//铜锄
+        Registry.register(Registry.ITEM, new Identifier("moretools", "amethyst_sword"), AmethystTool.AMETHYST_SWORD);  // 紫水晶剑
+        Registry.register(Registry.ITEM, new Identifier("moretools", "amethyst_shovel"), AmethystTool.AMETHYST_SHOVEL);  // 紫水晶锹
+        Registry.register(Registry.ITEM, new Identifier("moretools", "amethyst_pickaxe"), AmethystTool.POTATO_PICKAXE);  // 紫水晶镐
+        Registry.register(Registry.ITEM, new Identifier("moretools", "amethyst_axe"), AmethystTool.POTATO_AXE);  // 紫水晶斧
+        Registry.register(Registry.ITEM, new Identifier("moretools", "amethyst_hoe"), AmethystTool.POTATO_HOE);  // 紫水晶锄
 
-
-        Registry.register(Registry.ITEM, new Identifier("moretools", "bedrock_sword"), BedrockTool.BEDROCK_SWORD);//基岩剑
+        Registry.register(Registry.ITEM, new Identifier("moretools", "bedrock_sword"), BedrockTool.BEDROCK_SWORD);  // 基岩剑
 
 
         Registry.register(Registry.ITEM, new Identifier("moretools", "long_stick"), LongStick.LONG_STICK);

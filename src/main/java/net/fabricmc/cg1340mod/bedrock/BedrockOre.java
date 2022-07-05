@@ -1,4 +1,4 @@
-package net.fabricmc.cg1340mod;
+package net.fabricmc.cg1340mod.bedrock;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;

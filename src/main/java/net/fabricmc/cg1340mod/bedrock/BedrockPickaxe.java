@@ -1,4 +1,4 @@
-package net.fabricmc.cg1340mod;
+package net.fabricmc.cg1340mod.bedrock;
 
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
