@@ -1,4 +1,4 @@
-package net.fabricmc.cg1340mod.amethyst;
+package net.fabricmc.cg1340mod.items.amethyst;
 
 import net.fabricmc.cg1340mod.Cg1340mod;
 import net.minecraft.item.Item;

@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-      "all": "moretools:block/bedrock_ore"
+      "all": "moreblocks:block/amethyst_block"
     }
   }

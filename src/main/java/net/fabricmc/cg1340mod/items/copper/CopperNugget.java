@@ -1,4 +1,4 @@
-package net.fabricmc.cg1340mod.copper;
+package net.fabricmc.cg1340mod.items.copper;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.cg1340mod.Cg1340mod;

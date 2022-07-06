@@ -1,4 +1,4 @@
-package net.fabricmc.cg1340mod.amethyst;
+package net.fabricmc.cg1340mod.items.amethyst;
 
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.ToolMaterial;

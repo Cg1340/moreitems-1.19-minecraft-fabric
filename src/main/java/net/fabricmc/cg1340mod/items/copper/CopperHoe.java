@@ -1,4 +1,4 @@
-package net.fabricmc.cg1340mod.copper;
+package net.fabricmc.cg1340mod.items.copper;
 
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.ToolMaterial;

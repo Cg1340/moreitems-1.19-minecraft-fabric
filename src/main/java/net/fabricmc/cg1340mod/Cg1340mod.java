@@ -1,14 +1,13 @@
 package net.fabricmc.cg1340mod;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.cg1340mod.amethyst.AmethystTool;
-import net.fabricmc.cg1340mod.copper.CopperArmor;
-import net.fabricmc.cg1340mod.copper.CopperNugget;
-import net.fabricmc.cg1340mod.copper.CopperTool;
+import net.fabricmc.cg1340mod.blocks.amethyst_block_;
+import net.fabricmc.cg1340mod.items.amethyst.AmethystTool;
+import net.fabricmc.cg1340mod.items.copper.CopperArmor;
+import net.fabricmc.cg1340mod.items.copper.CopperNugget;
+import net.fabricmc.cg1340mod.items.copper.CopperTool;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -16,6 +15,10 @@ public class Cg1340mod implements ModInitializer {
     public static final ItemGroup MORE_TOOLS_GROUP = FabricItemGroupBuilder.create(
                     new Identifier("moretools", "more_tools_group"))
             .icon(() -> new ItemStack(Items.COPPER_INGOT)) // 这里将你创建的新的材料的模型用作图标，但是你也可以随时使用你喜欢的
+            .build();
+    public static final ItemGroup MORE_BLOCKS_GROUP = FabricItemGroupBuilder.create(
+                    new Identifier("moreblocks", "more_blocks_group"))
+            .icon(() -> new ItemStack(Items.TUFF))
             .build();
 
 
@@ -38,6 +41,9 @@ public class Cg1340mod implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("moretools", "amethyst_axe"), AmethystTool.POTATO_AXE);  // 紫水晶斧
         Registry.register(Registry.ITEM, new Identifier("moretools", "amethyst_hoe"), AmethystTool.POTATO_HOE);  // 紫水晶锄
         Registry.register(Registry.ITEM, new Identifier("moretools", "copper_nugget"), CopperNugget.COPPER_NUGGET);
+
+        Registry.register(Registry.BLOCK, new Identifier("moreblocks", "amethyst_block_"), amethyst_block_.AMETHYST_BLOCK_);
+        Registry.register(Registry.ITEM, new Identifier("moreblocks", "amethyst_block_"), new BlockItem(amethyst_block_.AMETHYST_BLOCK_, new Item.Settings().group(MORE_BLOCKS_GROUP)));
 
         CopperArmor.register();
         System.out.println("More Tools Mod is loaded! have fun!");
