@@ -7,14 +7,14 @@
     ],
     "key": {
       "C": {
-        "item": "minecraft:tuff"
+        "item": "#moreitems:stones"
       },
       "S": {
         "item": "minecraft:stick"
       }
     },
     "result": {
-      "item": "moreitems:stone_axe",
+      "item": "minecraft:stone_axe",
       "count": 1
     }
   }

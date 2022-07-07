@@ -7,11 +7,11 @@
     ],
     "key": {
       "O": {
-        "item": "minecraft:amethyst_block_"
+        "item": "moreitems:amethyst_block_"
       }
     },
     "result": {
-      "item": "moreitems:amethyst_shard",
+      "item": "minecraft:amethyst_shard",
       "count": 9
     }
   }
