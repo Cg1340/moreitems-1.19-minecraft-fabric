@@ -66,10 +66,10 @@ public class CopperArmor implements ArmorMaterial {
     public static final Item COPPER_BOOTS = new ArmorItem(COPPER_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Cg1340mod.MORE_TOOLS_GROUP));  // 靴子
 
     public static void register() {
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_helmet"), COPPER_HELMET);
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_chestplate"), COPPER_CHESTPLATE);
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_leggings"), COPPER_LEGGINGS);
-        Registry.register(Registry.ITEM, new Identifier("moretools", "copper_boots"), COPPER_BOOTS);
+        Registry.register(Registry.ITEM, new Identifier("moreitems", "copper_helmet"), COPPER_HELMET);
+        Registry.register(Registry.ITEM, new Identifier("moreitems", "copper_chestplate"), COPPER_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier("moreitems", "copper_leggings"), COPPER_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier("moreitems", "copper_boots"), COPPER_BOOTS);
     }
 
 }
