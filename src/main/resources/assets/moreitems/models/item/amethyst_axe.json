@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-      "layer0": "moretools:item/amethyst_axe"
+      "layer0": "moreitems:item/amethyst_axe"
     }
   }

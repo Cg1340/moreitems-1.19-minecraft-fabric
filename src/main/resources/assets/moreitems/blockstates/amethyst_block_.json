@@ -1,6 +1,6 @@
 {
   "variants": {
-    "": { "model": "moreblocks:block/amethyst_block_" }
+    "": { "model": "moreitems:block/amethyst_block_" }
   }
 }
 

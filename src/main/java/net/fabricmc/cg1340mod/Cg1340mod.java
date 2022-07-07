@@ -13,11 +13,11 @@ import net.minecraft.util.registry.Registry;
 
 public class Cg1340mod implements ModInitializer {
     public static final ItemGroup MORE_TOOLS_GROUP = FabricItemGroupBuilder.create(
-                    new Identifier("moretools", "more_tools_group"))
+                    new Identifier("moreitems", "more_tools_group"))
             .icon(() -> new ItemStack(Items.COPPER_INGOT)) // 这里将你创建的新的材料的模型用作图标，但是你也可以随时使用你喜欢的
             .build();
     public static final ItemGroup MORE_BLOCKS_GROUP = FabricItemGroupBuilder.create(
-                    new Identifier("moreblocks", "more_blocks_group"))
+                    new Identifier("moreitems", "more_blocks_group"))
             .icon(() -> new ItemStack(Items.TUFF))
             .build();
 

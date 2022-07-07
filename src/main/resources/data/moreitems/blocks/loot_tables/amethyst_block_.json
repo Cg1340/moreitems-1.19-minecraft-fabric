@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "moreblocks:amethyst_block_"
+            "name": "moreitems:amethyst_block_"
            }
         ],
         "conditions": [

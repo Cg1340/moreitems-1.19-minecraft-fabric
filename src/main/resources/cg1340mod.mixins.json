@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "Cg1340modMixin"
   ],
   "injectors": {
     "defaultRequire": 1
