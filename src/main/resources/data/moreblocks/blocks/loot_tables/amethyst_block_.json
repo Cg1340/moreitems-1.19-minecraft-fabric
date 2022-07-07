@@ -6,8 +6,8 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "moretools:tuff_slab"
-          }
+            "name": "moreblocks:amethyst_block_"
+           }
         ],
         "conditions": [
           {

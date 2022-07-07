@@ -1,14 +1,10 @@
 {
-    "block.moretools.bedrock_ore":"基岩矿石",
-
     "item.moretools.amethyst_axe":"紫水晶斧",
     "item.moretools.amethyst_hoe":"紫水晶锄",
     "item.moretools.amethyst_pickaxe":"紫水晶镐",
     "item.moretools.amethyst_shovel":"紫水晶锹",
     "item.moretools.amethyst_sword":"紫水晶剑",
 
-    "item.moretools.bedrock_debris":"基岩碎片",
-    "item.moretools.bedrock_sword":"§6基岩剑",
     "item.moretools.copper_axe":"铜斧",
     "item.moretools.copper_boots":"铜靴子",
     "item.moretools.copper_chestplate":"铜胸甲",

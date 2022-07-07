@@ -7,11 +7,11 @@
     ],
     "key": {
       "O": {
-        "item": "moretools:bedrock_debris"
+        "item": "minecraft:amethyst_shard"
       }
     },
     "result": {
-      "item": "minecraft:bedrock",
+      "item": "moreblocks:amethyst_block_",
       "count": 1
     }
   }
