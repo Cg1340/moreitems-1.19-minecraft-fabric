@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "cg1340mod",
-  "version": "${version}",
+  "version": "1.0.1dev202207071642",
 
-  "name": "More Tools!",
+  "name": "More Items!",
   "description": "This mod adds a lot of tools that vanilla doesn't have!",
   "authors": [
     "Cg1340",
