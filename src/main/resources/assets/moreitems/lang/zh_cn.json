@@ -4,7 +4,6 @@
   "item.moreitems.amethyst_pickaxe": "紫水晶镐",
   "item.moreitems.amethyst_shovel": "紫水晶锹",
   "item.moreitems.amethyst_sword": "紫水晶剑",
-
   "item.moreitems.copper_axe": "铜斧",
   "item.moreitems.copper_boots": "铜靴子",
   "item.moreitems.copper_chestplate": "铜胸甲",
@@ -15,8 +14,37 @@
   "item.moreitems.copper_pickaxe": "铜镐",
   "item.moreitems.copper_shovel": "铜锹",
   "item.moreitems.copper_sword": "铜剑",
-  "item.moreitems.long_stick": "长木棍",
   "itemGroup.moreitems.more_tools_group": "更多工具！",
   "itemGroup.moreitems.more_blocks_group": "更多方块！",
-  "block.moreitems.amethyst_block_": "紫水晶块"
+  "block.moreitems.amethyst_block_": "紫水晶块",
+
+  "item.moreitems.tuff_axe": "凝灰岩斧",
+  "item.moreitems.tuff_hoe": "凝灰岩锄",
+  "item.moreitems.tuff_pickaxe": "凝灰岩镐",
+  "item.moreitems.tuff_shovel": "凝灰岩锹",
+  "item.moreitems.tuff_sword": "凝灰岩剑",
+
+  "item.moreitems.calcite_axe": "方解石斧",
+  "item.moreitems.calcite_hoe": "方解石锄",
+  "item.moreitems.calcite_pickaxe": "方解石镐",
+  "item.moreitems.calcite_shovel": "方解石锹",
+  "item.moreitems.calcite_sword": "方解石剑",
+
+  "item.moreitems.granite_axe": "花岗岩斧",
+  "item.moreitems.granite_hoe": "花岗岩锄",
+  "item.moreitems.granite_pickaxe": "花岗岩镐",
+  "item.moreitems.granite_shovel": "花岗岩锹",
+  "item.moreitems.granite_sword": "花岗岩剑",
+
+  "item.moreitems.diorite_axe": "闪长岩斧",
+  "item.moreitems.diorite_hoe": "闪长岩锄",
+  "item.moreitems.diorite_pickaxe": "闪长岩镐",
+  "item.moreitems.diorite_shovel": "闪长岩锹",
+  "item.moreitems.diorite_sword": "闪长岩剑",
+
+  "item.moreitems.andesite_axe": "安山岩斧",
+  "item.moreitems.andesite_hoe": "安山岩锄",
+  "item.moreitems.andesite_pickaxe": "安山岩镐",
+  "item.moreitems.andesite_shovel": "安山岩锹",
+  "item.moreitems.andesite_sword": "安山岩剑"
 }

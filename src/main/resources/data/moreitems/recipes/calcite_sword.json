@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:calcite"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "moreitems:calcite_sword",
+    "count": 1
+  }
+}

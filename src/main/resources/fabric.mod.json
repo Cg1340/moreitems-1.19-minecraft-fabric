@@ -4,18 +4,17 @@
   "version": "1.0.1merge_namespace_test_dev202207071724",
 
   "name": "More Items!",
-  "description": "This mod adds a lot of tools that vanilla doesn't have!",
+  "description": "This mod adds a lot of items(tools, blocks, etc.) that vanilla doesn't have!",
   "authors": [
     "Cg1340",
     "明るい"
   ],
   "contact": {
     "homepage": "http://cg1340sweb.osv.ink/",
-    "sources": "https://github.com/Cg1340/moreitems-1.19/",
-    "Issues": "https://github.com/Cg1340/moreitems-1.19/issues/"
+    "sources": "https://github.com/Cg1340/moreitems-1.19/"
   },
 
-  "license": "GPL-v3",
+  "license": "LGPL-v3",
   "icon": "assets/moreitems/icon.png",
 
   "environment": "*",

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:tuff"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "moreitems:tuff_shovel",
+    "count": 1
+  }
+}
