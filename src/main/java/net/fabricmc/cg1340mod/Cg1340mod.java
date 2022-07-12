@@ -1,8 +1,8 @@
 package net.fabricmc.cg1340mod;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.cg1340mod.blocks.Amethyst_block_;
-import net.fabricmc.cg1340mod.blocks.Amethyst_slab;
+import net.fabricmc.cg1340mod.blocks.Smooth_amethyst_block;
+import net.fabricmc.cg1340mod.blocks.Smooth_amethyst_slab;
 import net.fabricmc.cg1340mod.items.amethyst.AmethystTool;
 import net.fabricmc.cg1340mod.items.copper.CopperArmor;
 import net.fabricmc.cg1340mod.items.copper.CopperNugget;
@@ -75,11 +75,11 @@ public class Cg1340mod implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("moreitems", "andesite_axe"), StoneTool.ANDESITE_AXE);  // 安山岩斧
         Registry.register(Registry.ITEM, new Identifier("moreitems", "andesite_hoe"), StoneTool.ANDESITE_HOE);  // 安山岩锄
 
-        Registry.register(Registry.BLOCK, new Identifier("moreitems", "amethyst_block_"), Amethyst_block_.AMETHYST_BLOCK_);
-        Registry.register(Registry.ITEM, new Identifier("moreitems", "amethyst_block_"), new BlockItem(Amethyst_block_.AMETHYST_BLOCK_, new Item.Settings().group(MORE_BLOCKS_GROUP)));
+        Registry.register(Registry.BLOCK, new Identifier("moreitems", "smooth_amethyst_block"), Smooth_amethyst_block.smooth_amethyst_block);
+        Registry.register(Registry.ITEM, new Identifier("moreitems", "smooth_amethyst_block"), new BlockItem(Smooth_amethyst_block.smooth_amethyst_block, new Item.Settings().group(MORE_BLOCKS_GROUP)));
 
-        Registry.register(Registry.BLOCK, new Identifier("moreitems", "amethyst_slab"), Amethyst_slab.AMETHYST_SLAB);
-        Registry.register(Registry.ITEM, new Identifier("moreitems", "amethyst_slab"), new BlockItem(Amethyst_slab.AMETHYST_SLAB, new Item.Settings().group(MORE_BLOCKS_GROUP)));
+        Registry.register(Registry.BLOCK, new Identifier("moreitems", "smooth_amethyst_slab"), Smooth_amethyst_slab.smooth_amethyst_slab);
+        Registry.register(Registry.ITEM, new Identifier("moreitems", "smooth_amethyst_slab"), new BlockItem(Smooth_amethyst_slab.smooth_amethyst_slab, new Item.Settings().group(MORE_BLOCKS_GROUP)));
 
         CopperArmor.register();
         System.out.println("[MoreItems]More Items Mod is loaded! have fun!");

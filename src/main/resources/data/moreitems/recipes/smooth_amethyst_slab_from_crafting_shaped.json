@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
       "   ",
-      " O ",
-      "   "
+      "   ",
+      "OOO"
     ],
     "key": {
       "O": {
-        "item": "moreitems:amethyst_block_"
+        "item": "moreitems:smooth_amethyst_block"
       }
     },
     "result": {
-      "item": "minecraft:amethyst_shard",
-      "count": 9
+      "item": "moreitems:smooth_amethyst_slab",
+      "count": 6
     }
   }

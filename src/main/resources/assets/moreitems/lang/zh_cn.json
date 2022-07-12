@@ -16,7 +16,8 @@
   "item.moreitems.copper_sword": "铜剑",
   "itemGroup.moreitems.more_tools_group": "更多工具！",
   "itemGroup.moreitems.more_blocks_group": "更多方块！",
-  "block.moreitems.amethyst_block_": "紫水晶块",
+  "block.moreitems.smooth_amethyst_block": "平滑紫水晶块",
+  "block.moreitems.smooth_amethyst_slab": "平滑紫水晶台阶",
 
   "item.moreitems.tuff_axe": "凝灰岩斧",
   "item.moreitems.tuff_hoe": "凝灰岩锄",

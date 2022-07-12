@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "moreitems:amethyst_block_"
+          "name": "moreitems:smooth_amethyst_block"
         }
       ],
       "rolls": 1.0

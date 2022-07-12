@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "moreitems:block/amethyst_block_"
+    "all": "moreitems:block/smooth_amethyst_block"
   }
 }
 

@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "moreitems:block/smooth_amethyst_slab"
+    },
+    "type=double": {
+      "model": "moreitems:block/smooth_amethyst_block"
+    },
+    "type=top": {
+      "model": "moreitems:block/smooth_amethyst_slab_top"
+    }
+  }
+}
+
