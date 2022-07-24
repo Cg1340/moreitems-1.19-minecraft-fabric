@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "moreitems:amethyst_slab"
+  },
+  "result": "moreitems:smooth_amethyst_slab"
+}

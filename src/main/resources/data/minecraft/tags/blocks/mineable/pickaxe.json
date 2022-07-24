@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "moreitems:smooth_amethyst_block",
-    "moreitems:smooth_amethyst_slab"
+    "moreitems:smooth_amethyst_slab",
+    "moreitems:amethyst_slab"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cg1340mod",
-  "version": "1.0.1dev202207111354",
+  "version": "1.0.1",
 
   "name": "More Items!",
   "description": "This mod adds a lot of items(tools, blocks, etc.) that vanilla doesn't have!",
@@ -19,6 +19,9 @@
 
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "net.fabricmc.cg1340mod.Cg1340modClient"
+    ],
     "main": [
       "net.fabricmc.cg1340mod.Cg1340mod"
     ]

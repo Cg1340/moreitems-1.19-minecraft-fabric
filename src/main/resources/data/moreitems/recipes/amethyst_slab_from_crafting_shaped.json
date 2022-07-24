@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "   ",
+      "OOO"
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:amethyst_block"
+      }
+    },
+    "result": {
+      "item": "moreitems:amethyst_slab",
+      "count": 6
+    }
+  }

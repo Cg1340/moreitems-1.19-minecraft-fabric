@@ -1,6 +1,7 @@
 package net.fabricmc.cg1340mod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.cg1340mod.blocks.Amethyst_slab;
 import net.fabricmc.cg1340mod.blocks.Smooth_amethyst_block;
 import net.fabricmc.cg1340mod.blocks.Smooth_amethyst_slab;
 import net.fabricmc.cg1340mod.items.amethyst.AmethystTool;
@@ -30,7 +31,7 @@ public class Cg1340mod implements ModInitializer {
         // However, some things (like resources) may still be uninitialized.
         // Proceed with mild caution.
 
-        System.out.println("[MoreItems]Thank you playing the More Items Mod!");
+        System.out.println("[MoreItems] Thank you playing the More Items Mod!");
         Registry.register(Registry.ITEM, new Identifier("moreitems", "copper_sword"), CopperTool.COPPER_SWORD);  // 铜剑
         Registry.register(Registry.ITEM, new Identifier("moreitems", "copper_shovel"), CopperTool.COPPER_SHOVEL);  // 铜锹
         Registry.register(Registry.ITEM, new Identifier("moreitems", "copper_pickaxe"), CopperTool.COPPER_PICKAXE);  // 铜镐
@@ -81,8 +82,11 @@ public class Cg1340mod implements ModInitializer {
         Registry.register(Registry.BLOCK, new Identifier("moreitems", "smooth_amethyst_slab"), Smooth_amethyst_slab.smooth_amethyst_slab);
         Registry.register(Registry.ITEM, new Identifier("moreitems", "smooth_amethyst_slab"), new BlockItem(Smooth_amethyst_slab.smooth_amethyst_slab, new Item.Settings().group(MORE_BLOCKS_GROUP)));
 
+        Registry.register(Registry.BLOCK, new Identifier("moreitems", "amethyst_slab"), Amethyst_slab.amethyst_slab);
+        Registry.register(Registry.ITEM, new Identifier("moreitems", "amethyst_slab"), new BlockItem(Amethyst_slab.amethyst_slab, new Item.Settings().group(MORE_BLOCKS_GROUP)));
+
         CopperArmor.register();
-        System.out.println("[MoreItems]More Items Mod is loaded! have fun!");
+        System.out.println("[MoreItems] More Items Mod is loaded! have fun!");
 
     }
 }
